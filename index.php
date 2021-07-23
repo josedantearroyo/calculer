@@ -18,6 +18,10 @@ function division($a,$b){
         return("Error");
     return $a/$b;
 }
-function potencia($a,$b)
+function potencia($a,$b){
     return pow($a,$b);
+}
+function resto($a,$b){
+    return $a%$b;
+}
 ?>
