@@ -22,6 +22,9 @@ function potencia($a,$b){
     return pow($a,$b);
 }
 function resto($a,$b){
-    return $a%$b;
+    if($b==0)
+        return "Error"
+    else
+        return $a%$b;
 }
 ?>
